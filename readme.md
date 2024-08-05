@@ -15,6 +15,14 @@ And install some common PHP8.1 extensions.
 
 > sudo apt install php8.1-mysql php8.1-mbstring php8.1-xml php8.1-gd php8.1-curl
 
+Now you can install PHP8.2 on Ubuntu by executing the following command.
+
+> sudo apt install php8.2 php8.2-fpm
+
+And install some common PHP8.1 extensions.
+
+> sudo apt install php8.2-mysql php8.2-mbstring php8.2-xml php8.2-gd php8.2-curl
+
 To install PHP7.4 on Ubuntu , run
 
 > sudo apt install php7.4 php7.4-fpm
