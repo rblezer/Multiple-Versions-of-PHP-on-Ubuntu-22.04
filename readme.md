@@ -7,29 +7,21 @@ The easiest way to install multiple versions of PHP is by using the PPA from Ond
 
 > sudo apt update
 
-Now you can install PHP8.1 on Ubuntu by executing the following command.
-
-> sudo  apt install php8.1 php8.1-fpm 
-
-And install some common PHP8.1 extensions.
-
-> sudo apt install php8.1-mysql php8.1-mbstring php8.1-xml php8.1-gd php8.1-curl
-
 Now you can install PHP8.2 on Ubuntu by executing the following command.
 
-> sudo apt install php8.2 php8.2-fpm
+> sudo  apt install php8.2 php8.2-fpm 
 
-And install some common PHP8.1 extensions.
+And install some common PHP8.2 extensions.
 
-> sudo apt install php8.2-mysql php8.2-mbstring php8.2-xml php8.2-gd php8.2-curl
+> sudo apt install php8.2-mysql php8.2-mbstring php8.2-xml php8.2-gd php8.2-curl php8.2-zip php8.2-intl
 
-To install PHP7.4 on Ubuntu , run
+Now you can install PHP8.3 on Ubuntu by executing the following command.
 
-> sudo apt install php7.4 php7.4-fpm
+> sudo apt install php8.3 php8.3-fpm
 
-Install some common PHP7.4 extensions.
+And install some common PHP8.3 extensions.
 
-> sudo apt install php7.4-mysql php7.4-mbstring php7.4-xml php7.4-gd php7.4-curl
+> sudo apt install php8.2-mysql php8.3-mbstring php8.3-xml php8.3-gd php8.3-curl php8.3-zip php8.3-intl
 
 Switching PHP Version in Apache Virtual Host
 By default, Apache uses one PHP version across all virtual hosts.
